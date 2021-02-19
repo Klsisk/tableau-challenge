@@ -1,7 +1,7 @@
 # June/December 2013 Citi Bikes Analysis
 
 ## Goal
-The goal of this project was to analyze CitiBike data from June and December of 2013, look for trends in the data, and then visualize those trends using Tableau.
+The goal of this project was to analyze Citi Bike data from June and December of 2013, look for trends in the data, and then visualize those trends using Tableau.
 
 ## Data Cleaning
 After seeing many NaN values in the two data files I was working with, I decided to use Python and the Pandas library to easily clean the data.  Within Jupyter Notebook, I was quickly able to drop some of the columns with NaN values using the ‘dropna’ method.  Once completed, I concatenated the two data files into one single dataset.  I then saved the combined data frames to a csv file and then uploaded that csv file into Tableau.
