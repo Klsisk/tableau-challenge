@@ -1,14 +1,14 @@
 # tableau-challenge
 
-##Goal
+## Goal
 The goal of this project was to analyze CitiBike data from June and December of 2013, look for trends in the data, and then visualize those trends using Tableau.
 
-##Data Cleaning
+## Data Cleaning
 After seeing many NaN values in the two data files I was working with, I decided to use Python and the Pandas library to easily clean the data.  Within Jupyter Notebook, I was quickly able to drop some of the columns with NaN values using the ‘dropna’ method.  Once completed, I concatenated the two data files into one single dataset.  I then saved the combined data frames to a csv file and then uploaded that csv file into Tableau.
 
 Once in Tableau, there were some changes that needed to be made to get the data where I needed it for use.  For instance, when working on any sheets that included the start and stop time, all hours were on a 24-hour clock.  To make the data more readable, I formatted the hours to a 12-hour clock.  When working with the data on age, I quickly learned that making bins for age groups would be the easiest to work with.  I noticed data from 1900 and figured that the data couldn’t be correct (as that was over a 100 years ago) so I filtered the Birth Year bins by only looking at data starting from those born after 1940.  To find the ‘Top 5 Start Stations” and “Top 5 End Stations’, sets were needed.  I listed all stations by “Station Name’ and ‘Number of Records’ (which was a generated field made from my concatenating the two data files).  I then sorted the stations to get top 5 stations and then created sets to work with them later for use in my maps.  To only show 5 stations, I filtered which stations were in my set.  When working with the data on gender, I noticed that the gender choices were numerically coded.  In order to equate the numbers with the correct gender choice, I made a calculation and called it “Gender Type” to be able to easier work with the field.
 
-##Analysis
+## Analysis
 My analysis focused on ‘User Types’ (Customer or Subscriber), ‘Gender’ (Male, Female, Unknown), and ‘Age’ (in bins). When looking at ‘User Types’ more in depth, ‘Subscribers’ make up over 97% of the total riders while ‘Customers’ (1-day and 3-day rentals) make up less than 3% of total riders.  ‘Subscribers’ tend to ride most during the morning commute and evening commute times.  This could signal that many of Citi Bike’s riders are ones that live and/or work in the city and use the bikes as a means to get to and from work.  The ‘Customers’ appear to be using them all hours of the day, but show the most use during the afternoon hours, specifically around 3 PM.  This could signal that they are likely tourists exploring the city during the day.  Their lessened use vs ‘Subscribers’ may be due to lack of knowing the city and how to get around it.  A guided tour might suit them better.  Over 78% percent of ‘Subscribers’ are ‘Male’.  If following the idea that most are using bikes to get to and from work, it may be that women prefer not to get sweaty before heading into the office. 
  
 When looking at ‘Gender’ more in depth, ‘Male’ riders make up over 76% of the total riders, ‘Female’ riders make up over 20% of total riders, and ‘Unknown’ riders make up over 2% of total riders.  Focusing more on the ‘Male’ and “Female’ riders, we can again see that the most popular times to use the Citi Bikes are at 8 AM and again around 5-6 PM, signaling that they could be used for commuting to and from work. 
