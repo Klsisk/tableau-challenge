@@ -1,4 +1,4 @@
-# tableau-challenge
+# June/December 2013 Citi Bikes Analysis
 
 ## Goal
 The goal of this project was to analyze CitiBike data from June and December of 2013, look for trends in the data, and then visualize those trends using Tableau.
