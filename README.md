@@ -10,8 +10,15 @@ Once in Tableau, there were some changes that needed to be made to get the data 
 
 ## Analysis
 My analysis focused on ‘User Types’ (Customer or Subscriber), ‘Gender’ (Male, Female, Unknown), and ‘Age’ (in bins). When looking at ‘User Types’ more in depth, ‘Subscribers’ make up over 97% of the total riders while ‘Customers’ (1-day and 3-day rentals) make up less than 3% of total riders.  ‘Subscribers’ tend to ride most during the morning commute and evening commute times.  This could signal that many of Citi Bike’s riders are ones that live and/or work in the city and use the bikes as a means to get to and from work.  The ‘Customers’ appear to be using them all hours of the day, but show the most use during the afternoon hours, specifically around 3 PM.  This could signal that they are likely tourists exploring the city during the day.  Their lessened use vs ‘Subscribers’ may be due to lack of knowing the city and how to get around it.  A guided tour might suit them better.  Over 78% percent of ‘Subscribers’ are ‘Male’.  If following the idea that most are using bikes to get to and from work, it may be that women prefer not to get sweaty before heading into the office. 
- 
+
+![image](https://user-images.githubusercontent.com/69765842/108455794-e3c6e880-723c-11eb-8079-605ea26c6fe3.png)
+
 When looking at ‘Gender’ more in depth, ‘Male’ riders make up over 76% of the total riders, ‘Female’ riders make up over 20% of total riders, and ‘Unknown’ riders make up over 2% of total riders.  Focusing more on the ‘Male’ and “Female’ riders, we can again see that the most popular times to use the Citi Bikes are at 8 AM and again around 5-6 PM, signaling that they could be used for commuting to and from work. 
+
+![image](https://user-images.githubusercontent.com/69765842/108455810-ed505080-723c-11eb-97e3-c6aa9884b4d1.png)
  
 When looking at ‘Age’ more in depth, those that were born between the years 1975 and 1989 were very active in riding Citi Bikes.  This would make the riders range anywhere from 24-38 years old.  In all age groups, ‘Male’ riders rode more than ‘Female’ riders.  Among all age groups, it was those born between 1980-1984, that rode Citi Bikes the most.  These riders would be between 29-33 years old.  You can definitely see a positive trend in use within age groups.  Each new group seems to use the bikes more than the previous age group, showing that age is an important factor in their use.  This is the case until 1985 and then it drops down.  It could be that riders at that age feel more secure taking a different type of transportation to and from work.
+
+![image](https://user-images.githubusercontent.com/69765842/108455843-fe00c680-723c-11eb-94f9-19d4b5585981.png)
+
 In conclusion, I think we can see from looking at ‘User Type’, ‘Gender’, and ‘Age’, that Citi Bike seems to have a popular market around young professionals who are using the bikes as a means for transportation to and from work.  The riders are ‘Subscribers’ which means they use the service on a daily/weekly basis.  While more ‘Males’ use the bikes than ‘Females’, you can see a trend of more ‘Female’ usage as we get closer to the 1980-1984 age group.  We could look into this further to see if the usage is the same on weekdays vs weekends to further conclude this prediction.
